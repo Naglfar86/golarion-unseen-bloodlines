@@ -1,0 +1,97 @@
+{
+  "id": "pf2e-golarion-unseen-bloodlines",
+  "title": "Golarion Unseen Bloodlines",
+  "description": "Magic is my way, magic is my right! Return to your bloodline, in this remastered tome from the Golarion Unseen series! Wield the might of the Sekmin, witness the future, wield plague and distort time itself, all this and more lies within you.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "John Holmes",
+      "discord": "theparlourpoet",
+      "flags": {}
+    },
+    {
+      "name": "Ruben \"Lyon\" Salazar",
+      "discord": "lyon_naglfar",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "unseen-bloodlines-player-options",
+      "label": "Player Options",
+      "banner": "modules/pf2e-golarion-unseen-bloodlines/assets/banners/banner1.webp",
+      "path": "packs/player-options",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "unseen-bloodlines-others",
+      "label": "Others",
+      "banner": "modules/pf2e-golarion-unseen-bloodlines/assets/banners/banner2.webp",
+      "path": "packs/others",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "unseen-bloodlines-journal",
+      "label": "Journal",
+      "banner": "modules/pf2e-golarion-unseen-bloodlines/assets/banners/banner3.webp",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/pf2e-golarion-unseen-bloodlines/assets/setup.webp"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Golarion Unseen",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Bloodlines",
+          "sorting": "m",
+          "packs": [
+            "unseen-bloodlines-player-options",
+            "unseen-bloodlines-others",
+            "unseen-bloodlines-journal"
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://www.pathfinderinfinite.com/en/product/549082/golarion-unseen-bloodlines-remastered",
+  "manifest": "https://github.com/Naglfar86/golarion-unseen-bloodlines/releases/latest/download/module.json",
+  "download": "https://github.com/Naglfar86/golarion-unseen-bloodlines/releases/latest/download/module.zip"
+}
